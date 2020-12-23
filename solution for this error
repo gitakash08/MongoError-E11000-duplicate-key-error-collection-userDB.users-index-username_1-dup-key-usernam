@@ -1,0 +1,9 @@
+This error is happens due to continious deletions or duplication of keys in database .
+the simple and easy soluton is ----
+Go to you mongo shell and use command ---
+1.show dbs
+2.use dbName
+3.show collections
+4.db.dbname.drop()
+
+And woola you are error free now go Ahead.
